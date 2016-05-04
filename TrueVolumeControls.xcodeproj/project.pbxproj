@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B2816371CDAA8190017F55F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2816361CDAA8190017F55F /* AppDelegate.swift */; };
+		1B2816391CDAA8190017F55F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2816381CDAA8190017F55F /* ViewController.swift */; };
+		1B28163C1CDAA8190017F55F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B28163A1CDAA8190017F55F /* Main.storyboard */; };
+		1B28163E1CDAA8190017F55F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B28163D1CDAA8190017F55F /* Assets.xcassets */; };
+		1B2816411CDAA8190017F55F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B28163F1CDAA8190017F55F /* LaunchScreen.storyboard */; };
+		1B28164C1CDAA8190017F55F /* TrueVolumeControlsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B28164B1CDAA8190017F55F /* TrueVolumeControlsTests.swift */; };
+		1B2816571CDAA8190017F55F /* TrueVolumeControlsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2816561CDAA8190017F55F /* TrueVolumeControlsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B2816481CDAA8190017F55F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B28162B1CDAA8190017F55F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B2816321CDAA8190017F55F;
+			remoteInfo = TrueVolumeControls;
+		};
+		1B2816531CDAA8190017F55F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B28162B1CDAA8190017F55F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B2816321CDAA8190017F55F;
+			remoteInfo = TrueVolumeControls;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B2816331CDAA8190017F55F /* TrueVolumeControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrueVolumeControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B2816361CDAA8190017F55F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B2816381CDAA8190017F55F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B28163B1CDAA8190017F55F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B28163D1CDAA8190017F55F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B2816401CDAA8190017F55F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B2816421CDAA8190017F55F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B2816471CDAA8190017F55F /* TrueVolumeControlsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrueVolumeControlsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B28164B1CDAA8190017F55F /* TrueVolumeControlsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueVolumeControlsTests.swift; sourceTree = "<group>"; };
+		1B28164D1CDAA8190017F55F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B2816521CDAA8190017F55F /* TrueVolumeControlsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrueVolumeControlsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B2816561CDAA8190017F55F /* TrueVolumeControlsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueVolumeControlsUITests.swift; sourceTree = "<group>"; };
+		1B2816581CDAA8190017F55F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B2816301CDAA8190017F55F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B2816441CDAA8190017F55F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B28164F1CDAA8190017F55F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B28162A1CDAA8190017F55F = {
+			isa = PBXGroup;
+			children = (
+				1B2816351CDAA8190017F55F /* TrueVolumeControls */,
+				1B28164A1CDAA8190017F55F /* TrueVolumeControlsTests */,
+				1B2816551CDAA8190017F55F /* TrueVolumeControlsUITests */,
+				1B2816341CDAA8190017F55F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B2816341CDAA8190017F55F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B2816331CDAA8190017F55F /* TrueVolumeControls.app */,
+				1B2816471CDAA8190017F55F /* TrueVolumeControlsTests.xctest */,
+				1B2816521CDAA8190017F55F /* TrueVolumeControlsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B2816351CDAA8190017F55F /* TrueVolumeControls */ = {
+			isa = PBXGroup;
+			children = (
+				1B2816361CDAA8190017F55F /* AppDelegate.swift */,
+				1B2816381CDAA8190017F55F /* ViewController.swift */,
+				1B28163A1CDAA8190017F55F /* Main.storyboard */,
+				1B28163D1CDAA8190017F55F /* Assets.xcassets */,
+				1B28163F1CDAA8190017F55F /* LaunchScreen.storyboard */,
+				1B2816421CDAA8190017F55F /* Info.plist */,
+			);
+			path = TrueVolumeControls;
+			sourceTree = "<group>";
+		};
+		1B28164A1CDAA8190017F55F /* TrueVolumeControlsTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B28164B1CDAA8190017F55F /* TrueVolumeControlsTests.swift */,
+				1B28164D1CDAA8190017F55F /* Info.plist */,
+			);
+			path = TrueVolumeControlsTests;
+			sourceTree = "<group>";
+		};
+		1B2816551CDAA8190017F55F /* TrueVolumeControlsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B2816561CDAA8190017F55F /* TrueVolumeControlsUITests.swift */,
+				1B2816581CDAA8190017F55F /* Info.plist */,
+			);
+			path = TrueVolumeControlsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B2816321CDAA8190017F55F /* TrueVolumeControls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B28165B1CDAA8190017F55F /* Build configuration list for PBXNativeTarget "TrueVolumeControls" */;
+			buildPhases = (
+				1B28162F1CDAA8190017F55F /* Sources */,
+				1B2816301CDAA8190017F55F /* Frameworks */,
+				1B2816311CDAA8190017F55F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrueVolumeControls;
+			productName = TrueVolumeControls;
+			productReference = 1B2816331CDAA8190017F55F /* TrueVolumeControls.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B2816461CDAA8190017F55F /* TrueVolumeControlsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B28165E1CDAA8190017F55F /* Build configuration list for PBXNativeTarget "TrueVolumeControlsTests" */;
+			buildPhases = (
+				1B2816431CDAA8190017F55F /* Sources */,
+				1B2816441CDAA8190017F55F /* Frameworks */,
+				1B2816451CDAA8190017F55F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B2816491CDAA8190017F55F /* PBXTargetDependency */,
+			);
+			name = TrueVolumeControlsTests;
+			productName = TrueVolumeControlsTests;
+			productReference = 1B2816471CDAA8190017F55F /* TrueVolumeControlsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B2816511CDAA8190017F55F /* TrueVolumeControlsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B2816611CDAA8190017F55F /* Build configuration list for PBXNativeTarget "TrueVolumeControlsUITests" */;
+			buildPhases = (
+				1B28164E1CDAA8190017F55F /* Sources */,
+				1B28164F1CDAA8190017F55F /* Frameworks */,
+				1B2816501CDAA8190017F55F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B2816541CDAA8190017F55F /* PBXTargetDependency */,
+			);
+			name = TrueVolumeControlsUITests;
+			productName = TrueVolumeControlsUITests;
+			productReference = 1B2816521CDAA8190017F55F /* TrueVolumeControlsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B28162B1CDAA8190017F55F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = wizage;
+				TargetAttributes = {
+					1B2816321CDAA8190017F55F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					1B2816461CDAA8190017F55F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1B2816321CDAA8190017F55F;
+					};
+					1B2816511CDAA8190017F55F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1B2816321CDAA8190017F55F;
+					};
+				};
+			};
+			buildConfigurationList = 1B28162E1CDAA8190017F55F /* Build configuration list for PBXProject "TrueVolumeControls" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B28162A1CDAA8190017F55F;
+			productRefGroup = 1B2816341CDAA8190017F55F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B2816321CDAA8190017F55F /* TrueVolumeControls */,
+				1B2816461CDAA8190017F55F /* TrueVolumeControlsTests */,
+				1B2816511CDAA8190017F55F /* TrueVolumeControlsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B2816311CDAA8190017F55F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B2816411CDAA8190017F55F /* LaunchScreen.storyboard in Resources */,
+				1B28163E1CDAA8190017F55F /* Assets.xcassets in Resources */,
+				1B28163C1CDAA8190017F55F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B2816451CDAA8190017F55F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B2816501CDAA8190017F55F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B28162F1CDAA8190017F55F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B2816391CDAA8190017F55F /* ViewController.swift in Sources */,
+				1B2816371CDAA8190017F55F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B2816431CDAA8190017F55F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B28164C1CDAA8190017F55F /* TrueVolumeControlsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B28164E1CDAA8190017F55F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B2816571CDAA8190017F55F /* TrueVolumeControlsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B2816491CDAA8190017F55F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B2816321CDAA8190017F55F /* TrueVolumeControls */;
+			targetProxy = 1B2816481CDAA8190017F55F /* PBXContainerItemProxy */;
+		};
+		1B2816541CDAA8190017F55F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B2816321CDAA8190017F55F /* TrueVolumeControls */;
+			targetProxy = 1B2816531CDAA8190017F55F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B28163A1CDAA8190017F55F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B28163B1CDAA8190017F55F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B28163F1CDAA8190017F55F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B2816401CDAA8190017F55F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B2816591CDAA8190017F55F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B28165A1CDAA8190017F55F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B28165C1CDAA8190017F55F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TrueVolumeControls/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wizages.TrueVolumeControls;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1B28165D1CDAA8190017F55F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TrueVolumeControls/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wizages.TrueVolumeControls;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1B28165F1CDAA8190017F55F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TrueVolumeControlsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wizages.TrueVolumeControlsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrueVolumeControls.app/TrueVolumeControls";
+			};
+			name = Debug;
+		};
+		1B2816601CDAA8190017F55F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TrueVolumeControlsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wizages.TrueVolumeControlsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrueVolumeControls.app/TrueVolumeControls";
+			};
+			name = Release;
+		};
+		1B2816621CDAA8190017F55F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TrueVolumeControlsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wizages.TrueVolumeControlsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TrueVolumeControls;
+			};
+			name = Debug;
+		};
+		1B2816631CDAA8190017F55F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TrueVolumeControlsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wizages.TrueVolumeControlsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TrueVolumeControls;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B28162E1CDAA8190017F55F /* Build configuration list for PBXProject "TrueVolumeControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B2816591CDAA8190017F55F /* Debug */,
+				1B28165A1CDAA8190017F55F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B28165B1CDAA8190017F55F /* Build configuration list for PBXNativeTarget "TrueVolumeControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B28165C1CDAA8190017F55F /* Debug */,
+				1B28165D1CDAA8190017F55F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B28165E1CDAA8190017F55F /* Build configuration list for PBXNativeTarget "TrueVolumeControlsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B28165F1CDAA8190017F55F /* Debug */,
+				1B2816601CDAA8190017F55F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B2816611CDAA8190017F55F /* Build configuration list for PBXNativeTarget "TrueVolumeControlsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B2816621CDAA8190017F55F /* Debug */,
+				1B2816631CDAA8190017F55F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B28162B1CDAA8190017F55F /* Project object */;
+}
