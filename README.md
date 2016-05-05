@@ -1,7 +1,7 @@
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://probablyjosh.mit-license.org)
 
 # Swift Volume Controller iOS 8-9
-This is a simple volume controller that is not using any private headers. Techincally this would be able to pass Apple's review process.
+This is a simple volume controller that is not using any private headers. Technically this would be able to pass Apple's review process.
 
 ##How to use:
 ###Setup:
